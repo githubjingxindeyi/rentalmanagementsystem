@@ -48,7 +48,7 @@
 
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.com.jianghongkun.mapper"></property>
+        <property name="basePackage" value="com.jianghongkun.mapper"></property>
     </bean>
 
     <context:component-scan base-package="com.jianghongkun.service"></context:component-scan>

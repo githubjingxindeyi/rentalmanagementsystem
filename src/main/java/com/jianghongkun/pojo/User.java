@@ -76,4 +76,13 @@ public class User {
     public void setStatus(Integer status) {
         this.status = status;
     }
+
+    public User(String cardId, String name, Integer gender, Date createTime, String password, Integer status) {
+        this.cardId = cardId;
+        this.name = name;
+        this.gender = gender;
+        this.createTime = createTime;
+        this.password = password;
+        this.status = status;
+    }
 }
