@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpSession;
 
 /**
  * @author shkstart
@@ -32,5 +33,11 @@ public class UserRegisterController {
         }else{
             return "<script>alert('注册失败！');location.href='register.do';</script>";
         }
+    }
+
+    @RequestMapping("/logout.do")
+    public String logout(HttpSession session){
+        session.invalidate();
+        return "login";
     }
 }

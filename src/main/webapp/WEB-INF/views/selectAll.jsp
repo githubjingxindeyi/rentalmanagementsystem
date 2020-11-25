@@ -13,6 +13,8 @@
     <script type="text/javascript" src="/static/js/jquery-1.7.2.js"></script>
 </head>
 <body>
+
+<a href="/logout.do"></a>
     <h1>房产信息查询</h1>
     <form action="/selectAll.do" method="post">
         查询类型：<select name="card">
