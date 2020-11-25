@@ -25,7 +25,7 @@
 <body>
 <div>
     <h1>帐号注册</h1>
-    <form action="/users/addUsers.do" method="post">
+    <form action="addUsers.do" method="post">
         <p>身份证号：<input type="text" name="cardid"><p id="cardid"></p></p>
         <p>用户名：<input type="text" name="name"><p id="name"></p></p>
         <p>密&nbsp;&nbsp;&nbsp;码：<input type="password" name="password"><p id="password"></p></p>
