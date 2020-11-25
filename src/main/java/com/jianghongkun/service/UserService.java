@@ -7,7 +7,7 @@ public interface UserService {
     //登录
     public User getUserByNamePassword(String cardId, String password);
     //注册
-    public boolean registUser(User user);
+    public int addUser(String cardId, String name, String password);
     //根据name查询
     public User selectByName(String name);
 
