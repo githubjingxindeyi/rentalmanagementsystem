@@ -33,4 +33,8 @@ public class UserRegisterController {
             return "<script>alert('注册失败！');location.href='register.do';</script>";
         }
     }
+    @RequestMapping("login.do")
+    public String login(){
+        return "login";
+    }
 }
